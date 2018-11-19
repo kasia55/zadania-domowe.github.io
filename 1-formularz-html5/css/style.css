@@ -1,0 +1,11 @@
+form, input, label{
+    display: block;
+}
+
+.wybor {
+    float: left;
+}
+
+input, select {
+    margin-bottom: 10px;
+}
