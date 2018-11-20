@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>A Simple Form</h3>
+    <h4>Form Fundamentals</h4>
+    <form action="https://formspree.io/k.tokarska@interia.pl" method="POST" autocomplete="on">
+        <fieldset>
+            <legend>Customer Info</legend>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" autofocus placeholder="Enter your name" required>
+            </div>
+            <div>
+                <label for="telephone">Telephone:</label>
+                <input type="tel" id="telephone" name="telephone" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Pattern: 1-234-567-8910" required>
+            </div>
+            <div>
+                <label for="email">Email address:</label>
+                <input type="email" id="email" placeholder="Enter your email address" multiple required>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Books</legend>
+            <div>
+                <!--  Znalazłam taki sposób, ale nie wiem czy to o takie coś chodziło:
+                
+                <input type="select" name="books" list="books-list">
+
+                <datalist id="books-list">
+                    <option>Shirley Hazzard, „The Great Fire”</option>
+                    <option>Junot Díaz, „The Brief Wondrous Life of Oscar Wao”</option>
+                    <option>Edward P. Jones, „Znany świat”</option>
+                    <option>Hilary Mantel, „W komnatach Wolf Hall”</option>
+                    <option>Marilynne Robinson, „Gilead”</option>
+                </datalist>  -->
+                
+                <!--    Tutaj jest drugi sposób:     -->
+                <select id="books">
+                    <option></option>
+                    <option>Shirley Hazzard, „The Great Fire”</option>
+                    <option>Junot Díaz, „The Brief Wondrous Life of Oscar Wao”</option>
+                    <option>Edward P. Jones, „Znany świat”</option>
+                    <option>Hilary Mantel, „W komnatach Wolf Hall”</option>
+                    <option>Marilynne Robinson, „Gilead”</option>
+                </select>
+
+                <label for="quantity">Quantity (Maximum 5): </label>
+                <input type="number" id="quantity" name="quantity" min="1" max="5">
+            </div>
+        </fieldset>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

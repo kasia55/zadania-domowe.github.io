@@ -1,0 +1,32 @@
+div {
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+label, input {
+    display: inline-block;
+}
+
+input {
+    width: 300px;
+}
+
+input[type="number"] {
+    width: 100px;
+}
+
+input[type="submit"] {
+    margin-top: 5px;
+    width: 70px;
+}
+
+h3 {
+    color: rgb(13, 5, 106);
+    margin-bottom: 5px;
+}
+
+h4 {
+    color: rgba(13, 5, 106, 0.5);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
