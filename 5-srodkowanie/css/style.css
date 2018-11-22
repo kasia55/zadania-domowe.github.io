@@ -1,0 +1,18 @@
+.big-square {
+    width: 30vh;
+    height: 30vh;
+    background-color: #ff9f03;
+    margin: 40px;
+    position: relative;
+    display: inline-block;
+}
+
+.small-square {
+    width: 15vh;
+    height: 15vh;
+    background-color: #1385ff;
+    position: absolute;
+    top: 7.5vh;
+    left: 7.5vh;
+}
+
