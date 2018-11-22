@@ -1,0 +1,168 @@
+* {
+    font-family: Lato;
+}
+
+header {
+    height: 350px;
+    background-color: #c9c9c9;
+    position: relative;
+}
+
+#triangle-topleft {
+    width: 0;
+    height: 0;
+    border-top: 350px solid #2a6fc2;
+    border-right: 450px solid transparent;
+    display: inline-block;
+}
+
+h1 {
+    color: #2a6fc2;
+    font-size: 70px;
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    left: 420px;
+}
+
+.main-navigation {
+    height: 70px;
+    font-size: 30px;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    padding-bottom: 40px;
+    z-index: 10;
+}
+
+ul {
+    position: absolute;
+    right: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+a {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#about {
+    font-size: 35px;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+h2 {
+    padding-top: 40px;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 0;
+}
+
+#text {
+    width: 40%;
+    background-color: #ffffff;
+    text-align: center;
+    position: relative;
+    left: 27%;
+    padding: 70px 50px;
+}
+
+#mc1 {
+    bottom: -25px;
+    right: -25px;
+}
+
+#mc2 {
+    top: -25px;
+    right: -25px;
+}
+
+#mc3 {
+    top: -25px;
+    left: -25px;
+}
+
+#mc4 {
+    bottom: -25px;
+    left: -25px;
+}
+
+address {
+    width: 40%;
+    font-size: 30px;
+    background-color: #2a6fc2;
+    color: #ffffff;
+}
+
+#about,
+#contact {
+    background-color: #edce95;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #808080;
+    display: inline-block;
+}
+
+.medium-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #808080;
+    position: absolute;
+}
+
+.little-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2a6fc2;
+}
+
+#portfolio {
+    width: 100%;
+    text-align: center;
+}
+
+.circle {
+    margin: auto;
+    margin: 30px 20px;
+    position: relative;
+}
+
+.little-circle {
+    position: absolute;
+    left: 85px;
+    bottom: 185px;
+}
+
+#contact {
+    position: relative;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+address {
+    position: relative;
+    left: 30%;
+    padding: 30px 0;
+}
+
+#mc5 {
+    top: 40px;
+    left: -25px;
+}
+
+#mc6 {
+    bottom: 40px;
+    right: -25px;
+}
