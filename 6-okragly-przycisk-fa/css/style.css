@@ -1,0 +1,22 @@
+#tlo {
+    background-color: #00ced1;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    position: relative;
+}
+
+i { 
+    font-size: 50px;
+    position: absolute;
+    top: 25px;
+    left: 35px;
+}
+
+#tlo:hover{
+    background-color: #fff;
+    border: 2px solid #00ced1;
+    color: #00ced1;
+}
