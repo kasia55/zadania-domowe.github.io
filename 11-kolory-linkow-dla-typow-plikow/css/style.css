@@ -1,0 +1,16 @@
+a {
+    text-decoration: none;
+}
+
+a[href$="doc"] {
+    color: red;
+}
+
+a[href$="docx"] {
+    color: green;
+}
+
+a[href$="com"],
+a[href$="pl"] {
+    color: violet;
+}
