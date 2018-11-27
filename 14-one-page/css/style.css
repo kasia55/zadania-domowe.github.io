@@ -1,0 +1,315 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    font-family: 'Titillium Web';
+}
+
+/* ---NAVIGATION--- */
+
+nav.main-navigation {
+    padding: 0 10vh;
+    background-color: #87509c;
+    height: 20vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav.main-navigation ul li {
+    display: inline-block;
+}
+
+nav.main-navigation ul li a {
+    margin-left: 10px;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav.main-navigation ul li a:hover {
+    background-color: #643a79;
+}
+
+/* ---HEADER--- */
+
+header#home {
+    padding: 0 15vh;
+    background-color: #87509c;
+    color: #fff;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+header button#button-header {
+    background-color: #eb7d4b;
+    color: #fff;
+    border: 1px solid transparent;
+    border-bottom: 2px solid rgba(92, 49, 29, 0.3);
+    border-radius: 5%;
+    width: 30vh;
+    height: 5vh;
+    text-transform: uppercase;
+    
+    align-self: center;
+}
+
+/* ---SECTION ABOUT--- */
+
+section#about {
+    padding: 0 15vh;
+    background-color: #e7f1f8;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 2vh;
+    text-transform: uppercase;
+    flex-basis: 100%;
+}
+
+hr {
+    margin-bottom: 2vh;
+    width: 80px;
+}
+
+hr + p {
+    margin-bottom: 5vh;
+    flex-basis: 100%;
+}
+
+section#about div.person {
+    height: 45vh;
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section#about div.person div.photo {
+    width: 20vh;
+    height: 20vh;
+    background-color: #696969;
+    border-radius: 50%;
+    align-self: center;
+}
+
+section#about div.person p.name {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+section#about div.person p.job {
+    font-size: 0.8em;
+    color: #55c2e9;
+}
+
+section#about div.person p.description {
+    font-size: 0.8em;
+}
+
+section#about div.person div.icons {
+    display: flex;
+    align-self: center;
+}
+
+section#about div.person div.icons div.circle {
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    background-color: #c8d9e5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+section#about div.person div.icons div.circle i {
+    font-size: 0.6em;
+    color: #fff;
+    justify-content: center;
+    align-self: center;
+}
+
+/* ---SECTION WORK--- */
+
+section#work {
+    padding: 0 15vh;
+    background-color: #fff;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+section#work div.container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+}
+
+section#work div.container div.skill {
+    width: 20vh;
+    height: 20vh;
+    border: 10px solid #34b7eb; 
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+} 
+
+section#work div.container:nth-of-type(2) div.skill{
+    border-color: #dc4481;
+}
+
+section#work div.container:nth-of-type(3) div.skill {
+    border-color: #17c5aa;
+}
+
+section#work div.container:nth-of-type(4) div.skill {
+    border-color: #ec7d4f;
+}
+
+section#work div.container p.skill-name {
+    text-align: center;
+    font-weight: bold;
+}
+
+section#work div.skill p.scale {
+    font-size: 3em;
+    align-self: center;
+}
+
+section#work div.skill p.skill-name {
+    align-self: center;
+}
+
+/* ---SECTION BLOG--- */
+
+section#blog {
+    padding: 0 15vh;
+    background-color: #d74680;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+section#blog div.all-posts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section#blog div.blog-post {
+    margin-bottom: 2vh;
+    display: flex;
+    flex-basis: 50%;
+}
+
+section#blog div.blog-post div.blog-photo {
+    margin: 0 5vh 5vh 5vh;
+    min-width: 15vh;
+    height: 15vh;
+    background-color: #787878;
+    border-radius: 50%;
+}
+
+section#blog div.blog-post div.blog-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-around;
+}
+
+section#blog div.blog-post div.blog-container p.blog-name {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+section#blog div.blog-post div.blog-container p.blog-job {
+    color: #ffdd99;
+}
+
+/* ---FOOTER--- */
+
+footer#contact {
+    padding: 0 15vh;
+    background-color: #3c5499;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+/*
+<form class="form-contact">
+            <input type="text" name="name" placeholder="Your Name*" required>
+            <input type="email" name="email" placeholder="Your Email*" required>
+            <textarea name="message" placeholder="Your Message*" required></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+
+        <div class="footer-links">
+            <a href="https://pl-pl.facebook.com/">Facebook</a>
+            <a href="https://twitter.com/">Twitter</a>
+            <a href="https://plus.google.com/">Google+</a>
+            <a href="https://pl.linkedin.com/">Linkedin</a>
+            <a href="https://www.behance.net/">Behance</a>
+            <a href="https://www.dribbble.com/">Dribbble</a>
+        </div>
+*/
+
+footer#contact form {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+footer#contact form input {
+    margin-bottom: 4vh;
+    padding-left: 5px;
+    width: 49%;
+    height: 5vh;
+}
+
+footer#contact form textarea {
+    margin-bottom: 4vh;
+    width: 100%;  
+    height: 15vh;
+}
+
+footer#contact form input[type="submit"] {
+    margin: 0 auto;
+}
+
+footer#contact div.footer-links a {
+    display: inline-block;
+    background-color: rgb(52, 75, 142);
+}
+
+footer#contact div.footer-links a:hover {
+    display: inline-block;
+    background-color: rgb(52, 75, 142);
+}
