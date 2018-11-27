@@ -53,7 +53,7 @@ header button#button-header {
     color: #fff;
     border: 1px solid transparent;
     border-bottom: 2px solid rgba(92, 49, 29, 0.3);
-    border-radius: 5%;
+    border-radius: 5px;
     width: 30vh;
     height: 5vh;
     text-transform: uppercase;
@@ -81,6 +81,7 @@ h2 {
 }
 
 hr {
+    border-color: #c8d9e5;
     margin-bottom: 2vh;
     width: 80px;
 }
@@ -88,6 +89,10 @@ hr {
 hr + p {
     margin-bottom: 5vh;
     flex-basis: 100%;
+}
+
+section#about h2 {
+    color: #3c4761;
 }
 
 section#about div.person {
@@ -196,6 +201,7 @@ section#work div.skill p.scale {
 }
 
 section#work div.skill p.skill-name {
+    color: #3c4761;
     align-self: center;
 }
 
@@ -211,6 +217,10 @@ section#blog {
     justify-content: center;
     align-content: center;
     text-align: center;
+}
+
+section#blog hr {
+    border-color: #b73c6d;
 }
 
 section#blog div.all-posts {
@@ -253,38 +263,25 @@ section#blog div.blog-post div.blog-container p.blog-job {
 footer#contact {
     padding: 0 15vh;
     background-color: #3c5499;
-    height: 70vh;
+    color: #fff;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     text-align: center;
+    position: relative;
 }
 
-/*
-<form class="form-contact">
-            <input type="text" name="name" placeholder="Your Name*" required>
-            <input type="email" name="email" placeholder="Your Email*" required>
-            <textarea name="message" placeholder="Your Message*" required></textarea>
-            <input type="submit" value="Send Message">
-        </form>
-
-        <div class="footer-links">
-            <a href="https://pl-pl.facebook.com/">Facebook</a>
-            <a href="https://twitter.com/">Twitter</a>
-            <a href="https://plus.google.com/">Google+</a>
-            <a href="https://pl.linkedin.com/">Linkedin</a>
-            <a href="https://www.behance.net/">Behance</a>
-            <a href="https://www.dribbble.com/">Dribbble</a>
-        </div>
-*/
+footer#contact hr {
+    border-color: #273a71;
+}
 
 footer#contact form {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
 }
 
 footer#contact form input {
@@ -292,24 +289,52 @@ footer#contact form input {
     padding-left: 5px;
     width: 49%;
     height: 5vh;
+    background-color: rgb(39, 58, 114);
+    border: 1px solid transparent;
 }
 
 footer#contact form textarea {
     margin-bottom: 4vh;
     width: 100%;  
     height: 15vh;
+    background-color: rgb(39, 58, 114);
+    border: 1px solid transparent;
 }
 
 footer#contact form input[type="submit"] {
     margin: 0 auto;
+    background-color: #55c2e9;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid transparent;
+    border-bottom: 1px solid rgba(85, 194, 233, 0.5);
+    border-radius: 5px;
+    
+}
+
+footer#contact div.footer-links {
+    margin-top: 5vh;
+    width: 100%;
+    height: 13vh;
+    background-color: rgb(52, 75, 142);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer#contact div.footer-links a {
     display: inline-block;
     background-color: rgb(52, 75, 142);
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5vh;
+    padding: 1vh;
 }
 
 footer#contact div.footer-links a:hover {
     display: inline-block;
-    background-color: rgb(52, 75, 142);
+    background-color: #55c2e9;
 }
