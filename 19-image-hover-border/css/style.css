@@ -1,0 +1,67 @@
+body, div.napis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    margin: 15px 5px;
+    width: 600px;
+    height: 350px;
+    position: relative;
+}
+
+div.obraz {
+    width: 610px;
+    height: 380px;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    position: relative;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    
+}
+
+div.obraz::before, div.obraz::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: black;
+    height: 10px;
+}
+
+div.obraz::before {
+    top: 0;
+}
+
+div.obraz::after {
+    bottom: 0;
+}
+
+div.napis {
+    width: 630px;
+    height: 100px;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: white;
+    background-color: rgba(33, 33, 33, 0.8);
+    text-align: center;
+    position: absolute;
+}
+
+@kayframes show-div {
+    0% {
+        display: flex;
+    }
+    
+    100%{
+        
+    }
+}
+
+img:hover~div.obraz {
+    display: flex;
+}
