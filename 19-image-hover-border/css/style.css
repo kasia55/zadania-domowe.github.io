@@ -1,4 +1,5 @@
-body, div.napis {
+body,
+div.napis {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,14 +18,13 @@ div.obraz {
     border-left: 10px solid black;
     border-right: 10px solid black;
     position: relative;
-    display: none;
     justify-content: center;
     align-items: center;
     position: absolute;
-    
 }
 
-div.obraz::before, div.obraz::after {
+div.obraz::before,
+div.obraz::after {
     content: "";
     position: absolute;
     left: 0;
@@ -52,16 +52,6 @@ div.napis {
     position: absolute;
 }
 
-@kayframes show-div {
-    0% {
-        display: flex;
-    }
-    
-    100%{
-        
-    }
-}
+img:hover~div.napis {
 
-img:hover~div.obraz {
-    display: flex;
 }
