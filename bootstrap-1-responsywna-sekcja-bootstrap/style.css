@@ -1,0 +1,28 @@
+div.kolo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: beige;
+    margin: 10px auto;
+}
+
+.fab {
+    font-size: 50px;
+    color: orange;
+}
+
+p {
+    text-align: center;
+}
+
+hr {
+    width: 200px;
+}
+
+.kontener {
+    margin-top: 10%;
+}
+
+sub {
+    font-size: 1em;
+}
