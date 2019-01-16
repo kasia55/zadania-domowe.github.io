@@ -1,0 +1,21 @@
+body {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+hr {
+    width: 50%;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+.btn-link {
+    color: red;
+}
+
+.btn-link:hover {
+    color: orange;
+}
