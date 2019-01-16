@@ -9012,7 +9012,7 @@ header.header-image {
       color: #ffffff;
       text-transform: capitalize; }
     #main-slider .carousel-caption h1 {
-      font-size: 48px;
+      font-size: 66px;
       margin-top: 24px;
       margin-bottom: 24px; }
     #main-slider .carousel-caption p {
@@ -9034,7 +9034,7 @@ header.header-image {
         color: #ffffff;
         text-transform: capitalize; }
       #main-slider .carousel-caption h1 {
-        font-size: 36px;
+        font-size: 66px;
         margin-top: 24px;
         margin-bottom: 24px; }
       #main-slider .carousel-caption p {
@@ -9056,7 +9056,7 @@ header.header-image {
         color: #ffffff;
         text-transform: capitalize; }
       #main-slider .carousel-caption h1 {
-        font-size: 26px;
+        font-size: 66px;
         margin-top: 24px;
         margin-bottom: 24px; }
       #main-slider .carousel-caption p {
@@ -9078,7 +9078,7 @@ header.header-image {
         color: #ffffff;
         text-transform: capitalize; }
       #main-slider .carousel-caption h1 {
-        font-size: 21px;
+        font-size: 66px;
         margin-top: 18px;
         margin-bottom: 18px; }
       #main-slider .carousel-caption p {
@@ -9100,7 +9100,7 @@ header.header-image {
         color: #ffffff;
         text-transform: capitalize; }
       #main-slider .carousel-caption h1 {
-        font-size: 18px;
+        font-size: 66px;
         margin-top: 0;
         margin-bottom: 0; }
       #main-slider .carousel-caption p {
@@ -9127,7 +9127,7 @@ header.header-image {
         color: #ffffff;
         text-transform: capitalize; }
       #main-slider .carousel-caption h1 {
-        font-size: 12px;
+        font-size: 66px;
         margin-top: 0;
         margin-bottom: 0; }
       #main-slider .carousel-caption p {
@@ -9430,7 +9430,7 @@ form fieldset {
       width: 96px;
       height: 96px;
       border-radius: 100%;
-      line-height: 72px;
+      line-height: 96px;
       background-color: #a5e200;
       margin: 0 auto 24px; }
 
